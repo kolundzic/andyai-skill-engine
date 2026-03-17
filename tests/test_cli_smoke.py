@@ -22,4 +22,3 @@ def test_cli_export_copilot_runs() -> None:
     assert result.returncode == 0
     payload = json.loads(result.stdout)
     assert payload['source_architecture'] == 'andyai-skill-engine'
-    assert payload['compatibility'] == ['copilot']

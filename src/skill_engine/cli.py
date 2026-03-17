@@ -24,7 +24,7 @@ def cmd_validate(path_str: str) -> int:
 
 def cmd_check_pack(root_str: str) -> int:
     root = Path(root_str)
-    required = ['README.md','RELEASE_NOTES_v0.8.md','docs/testing.md','docs/project-structure.md','.gitignore','LICENSE','CONTRIBUTING.md','CHANGELOG.md']
+    required = ['README.md','RELEASE_NOTES_v0.9.md','docs/testing.md','docs/project-structure.md','docs/quickstart.md','docs/faq.md','docs/release-checklist.md','.gitignore','LICENSE','CONTRIBUTING.md','CHANGELOG.md']
     missing = [item for item in required if not (root / item).exists()]
     if missing:
         for item in missing:

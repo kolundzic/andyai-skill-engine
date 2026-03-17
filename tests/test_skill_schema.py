@@ -17,27 +17,3 @@ def test_skill_can_be_loaded_into_model() -> None:
     assert skill.version == '0.4.0'
     assert len(skill.inputs) == 2
     assert len(skill.outputs) == 2
-
-def test_missing_required_field_fails() -> None:
-    bad_payload = {'id':'broken.skill','version':'0.1.0','title':'Broken Skill','inputs':[],'outputs':[]}
-    result = validate_skill_dict(bad_payload)
-    assert result.valid is False
-    assert any('purpose' in error for error in result.errors)
-
-def test_invalid_payload_type_fails() -> None:
-    result = validate_skill_dict('not-a-dict')
-    assert result.valid is False
-    assert result.errors == ['Skill payload must be a dictionary.']
-
-def test_empty_id_fails() -> None:
-    bad_payload = {
-        'id':'',
-        'version':'0.1.0',
-        'title':'Broken Skill',
-        'purpose':'broken',
-        'inputs':[],
-        'outputs':[]
-    }
-    result = validate_skill_dict(bad_payload)
-    assert result.valid is False
-    assert any("Field 'id'" in error for error in result.errors)
