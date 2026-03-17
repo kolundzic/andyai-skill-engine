@@ -1,7 +1,7 @@
 # AndyAI Skill Engine
 
 [![CI](https://img.shields.io/badge/CI-validate-ready-brightgreen)](#)
-[![Version](https://img.shields.io/badge/version-v0.9-blue)](#)
+[![Version](https://img.shields.io/badge/version-v1.0-blue)](#)
 [![License](https://img.shields.io/badge/license-MIT-lightgrey)](#)
 
 **AndyAI Skill Engine** is a skill-based orchestration architecture for reusable, verifiable AI execution.
@@ -9,7 +9,9 @@
 Copilot compatibility is an export path.  
 **AndyAI Skill Engine remains the master architecture.**
 
-## What this repo now includes
+## Public baseline
+
+This `v1.0` release establishes the first public baseline of the repo with:
 
 - skill schema + examples
 - validation core
@@ -29,6 +31,7 @@ Copilot compatibility is an export path.
 - `v0.7` — repo hardening + quality
 - `v0.8` — CI + test hardening
 - `v0.9` — release polish + public-facing pack
+- `v1.0` — public baseline release
 
 ## Quick start
 

@@ -14,6 +14,6 @@ def test_skill_can_be_loaded_into_model() -> None:
     data = json.loads(Path('examples/skills/minimal_skill.json').read_text(encoding='utf-8'))
     skill = Skill.from_dict(data)
     assert skill.id == 'andyai.minimal.status'
-    assert skill.version == '0.4.0'
+    assert skill.version == '1.0.0'
     assert len(skill.inputs) == 2
     assert len(skill.outputs) == 2

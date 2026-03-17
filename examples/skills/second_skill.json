@@ -1,0 +1,29 @@
+{
+  "id": "andyai.copilot.export.preview",
+  "version": "1.0.0",
+  "title": "Copilot Export Preview Skill",
+  "purpose": "Prepare a simplified export-ready structure for compatibility preview flows.",
+  "inputs": [
+    {
+      "name": "skill_payload",
+      "type": "object"
+    }
+  ],
+  "outputs": [
+    {
+      "name": "copilot_preview",
+      "type": "object"
+    }
+  ],
+  "constraints": [
+    "must preserve identity fields",
+    "must not invent missing payload fields"
+  ],
+  "compatibility": [
+    "copilot-export"
+  ],
+  "trust": {
+    "evidence_required": false,
+    "safe_for_preview": true
+  }
+}

@@ -1,15 +1,21 @@
-# Roadmap v0.9
+# Roadmap v1.0
 
-## v0.9
-- README polish
-- badges
-- quickstart doc
-- FAQ doc
-- release checklist doc
-- public-facing repo surface
+## v1.0 baseline locked
 
-## v1.0 target
-- stable public baseline
-- consistent docs set
-- trust + CLI + CI combined
-- ready for broader public presentation
+This version locks the first public baseline with:
+- schema
+- examples
+- validator
+- CLI
+- trust docs
+- CI
+- tests
+- public repo surface
+
+## Next possible line after v1.0
+
+- richer skill examples
+- stronger semantic validation
+- release artifacts
+- exporter growth
+- wider compatibility adapters

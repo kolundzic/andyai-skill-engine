@@ -1,6 +1,6 @@
 {
   "id": "andyai.minimal.status",
-  "version": "0.4.0",
+  "version": "1.0.0",
   "title": "Minimal Status Skill",
   "purpose": "Turn simple execution state into a concise structured summary.",
   "inputs": [

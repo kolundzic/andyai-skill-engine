@@ -16,9 +16,3 @@ make check-pack
 make test
 make cli-smoke
 ```
-
-## First CLI run
-
-```bash
-python -m skill_engine.cli validate examples/skills
-```
