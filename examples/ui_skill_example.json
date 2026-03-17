@@ -1,0 +1,38 @@
+{
+  "id": "ui.status.summary",
+  "version": "0.2",
+  "title": "UI Status Summary",
+  "purpose": "Transform raw execution state into a concise, human-readable UI status block.",
+  "inputs": [
+    {
+      "name": "state",
+      "type": "string"
+    },
+    {
+      "name": "details",
+      "type": "object"
+    }
+  ],
+  "outputs": [
+    {
+      "name": "summary",
+      "type": "string"
+    },
+    {
+      "name": "severity",
+      "type": "string"
+    }
+  ],
+  "constraints": [
+    "must be concise",
+    "must not invent execution facts"
+  ],
+  "compatibility": [
+    "copilot-export",
+    "internal-ui"
+  ],
+  "trust": {
+    "evidence_required": false,
+    "safe_for_preview": true
+  }
+}
