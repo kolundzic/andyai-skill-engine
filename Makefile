@@ -1,7 +1,5 @@
 PYTHON ?= python3
 
-.PHONY: validate check-pack test cli-help
-
 validate:
 	$(PYTHON) scripts/validate-skills.py
 

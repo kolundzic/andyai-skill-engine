@@ -1,8 +1,4 @@
 {
   "status": "ok",
-  "validated_files": [
-    "examples/skills/minimal_skill.json"
-  ],
-  "generated_by": "andyai-skill-engine CLI",
-  "version": "0.6.0"
+  "version": "0.7.0"
 }

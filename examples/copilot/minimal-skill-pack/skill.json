@@ -2,7 +2,7 @@
   "id": "copilot.minimal.skill",
   "version": "0.1",
   "title": "Minimal Copilot-Compatible Skill",
-  "purpose": "Example export surface from the AndyAI master skill model.",
+  "purpose": "Example export surface.",
   "compatibility": [
     "copilot"
   ]
