@@ -44,19 +44,14 @@ def validate_skill_dict(data: dict[str, Any]) -> SkillValidationResult:
 
     if not isinstance(data["id"], str) or not data["id"].strip():
         errors.append("Field 'id' must be a non-empty string.")
-
     if not isinstance(data["version"], str) or not data["version"].strip():
         errors.append("Field 'version' must be a non-empty string.")
-
     if not isinstance(data["title"], str) or not data["title"].strip():
         errors.append("Field 'title' must be a non-empty string.")
-
     if not isinstance(data["purpose"], str) or not data["purpose"].strip():
         errors.append("Field 'purpose' must be a non-empty string.")
-
     if not isinstance(data["inputs"], list):
         errors.append("Field 'inputs' must be a list.")
-
     if not isinstance(data["outputs"], list):
         errors.append("Field 'outputs' must be a list.")
 
@@ -86,13 +81,10 @@ def validate_skill_dict(data: dict[str, Any]) -> SkillValidationResult:
 
     if not errors:
         skill = Skill.from_dict(data)
-
         if not skill.compatibility:
             warnings.append("No compatibility targets declared.")
-
         if not skill.constraints:
             warnings.append("No constraints declared.")
-
         if skill.trust.evidence_required is False:
             warnings.append("Evidence is not required for this skill.")
 

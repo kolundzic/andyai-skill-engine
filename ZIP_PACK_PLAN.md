@@ -1,43 +1,38 @@
-# ZIP PACK PLAN v0.1
+# ZIP PACK PLAN v0.2
 
 ## Goal
 
-Prepare clean ZIP deliverables for REPO 1 only.
+Prepare clean ZIP deliverables for the same repo root:
+`andyai-skill-engine/`
+
+## Rule
+
+For an existing repo, the ZIP must unpack directly over:
+`~/Documents/Projects/`
+
+so that files land inside:
+`~/Documents/Projects/andyai-skill-engine`
 
 ## Packages
 
 ### 1. Repo Snapshot
-File name:
-`andyai-skill-engine-v0.4-operational-skeleton.zip`
-
-Purpose:
-- full repo tree
-- ready to unpack into local project folder
-- ready for commit/push
+Primary working ZIP for local repo overlay.
 
 ### 2. Release Pack
-File name:
-`andyai-skill-engine-v0.4-release-pack.zip`
+Mirror ZIP for fallback download.
 
-Purpose:
-- mirrored package for distribution / fallback download
-- same repo contents for now
-- can later diverge with release-only extras
-
-## Local Path Canon
-
-Target local path:
-`/Documents/Projects/andyai-skill-engine`
-
-## Workflow
+## Canonical Deploy Model
 
 1. download ZIP
-2. unpack into local project folder
-3. inspect files
-4. git add .
-5. git commit
-6. git push
+2. unzip over `~/Documents/Projects`
+3. `git add .`
+4. `git commit`
+5. `git push`
 
-## Rule
+## Important Packaging Warning
 
-Do not expand scope to REPO 2 until REPO 1 is fully closed.
+Never use a versioned ZIP root such as:
+- `andyai-skill-engine-v0.4/`
+
+Always use:
+- `andyai-skill-engine/`

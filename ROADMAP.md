@@ -1,4 +1,4 @@
-# Roadmap v0.2
+# Roadmap v0.5
 
 ## v0.1
 - repo definition
@@ -21,31 +21,32 @@
 - repo positioning memo
 
 ## v0.4
-- operational skeleton
-- minimal Python package
-- validator foundation
-- example tests
-- first exporter stub
+- Python package skeleton
+- validator core
+- exporter foundation
+- example test coverage
+- validation flow document
 
 ## v0.5
-Planned:
-- signed skill manifests
-- evidence bundle pattern
-- policy-aware execution examples
-- trust + packaging discipline
+- trust example payloads
+- release bundle structure
+- scripts for pack checks
+- scripts for skill validation
+- trust model documentation
+- release discipline documentation
 
 ## v0.6
 Planned:
-- multi-runtime adapters
-- enterprise governance notes
-- release automation
-- basic CLI entry
+- CLI entrypoint
+- Makefile / dev commands
+- CI workflow
+- build output examples
 
-## Long-Term Direction
-
-The long-term goal is to make skill definitions:
-- reusable
-- verifiable
-- exportable
-- governable
-- market-ready
+## v1.0
+Target:
+- stable skill schema
+- minimal runtime validation
+- trust discipline
+- CLI entry
+- CI checks
+- multiple real skill examples

@@ -1,0 +1,17 @@
+{
+  "skill_id": "andyai.minimal.status",
+  "skill_version": "0.4.0",
+  "source_file": "examples/skills/minimal_skill.json",
+  "compatibility_targets": [
+    "copilot-export",
+    "internal-ui"
+  ],
+  "checks": {
+    "schema_shape_checked": true,
+    "validator_checked": true,
+    "pack_root_checked": true
+  },
+  "notes": [
+    "example trust manifest for v0.5 discipline"
+  ]
+}

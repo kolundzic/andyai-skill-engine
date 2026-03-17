@@ -9,7 +9,6 @@ def export_skill_to_copilot(skill: Skill) -> dict[str, Any]:
     """
     Minimal compatibility export for Copilot-oriented packaging.
 
-    This is intentionally thin:
     AndyAI Skill Engine remains the master architecture,
     while Copilot is treated as an export target.
     """

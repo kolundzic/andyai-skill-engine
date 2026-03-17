@@ -6,9 +6,3 @@ This folder defines the compatibility path between AndyAI Skill Engine and Copil
 
 AndyAI Skill Engine remains the master architecture.  
 Copilot compatibility is an export path.
-
-## Current Scope
-
-- conceptual mapping
-- minimal example pack
-- future room for automated exporters

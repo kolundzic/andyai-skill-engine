@@ -1,22 +1,17 @@
-# PACKAGING CHECKLIST v0.1
+# PACKAGING CHECKLIST v0.2
 
-- [x] repo root created
+- [x] repo root is `andyai-skill-engine/`
 - [x] core markdown files included
 - [x] schema included
 - [x] example JSON included
 - [x] diagram included
-- [x] docs/copilot-mapping.md included
-- [x] examples/copilot/minimal-skill-pack included
-- [x] compat/copilot/README.md included
-- [x] repo-positioning doc included
-- [x] release notes included
-- [x] zip pack plan included
-- [x] src/ operational skeleton included
-- [x] tests/ included
-- [x] docs/validation-flow.md included
-- [x] examples/skills/minimal_skill.json included
+- [x] v0.4 skeleton files included
+- [x] trust examples included
+- [x] scripts included
+- [x] release notes updated
+- [x] root folder bug avoided
 
 ## Final Check
 
-Target local unpack path:
-`/Documents/Projects/andyai-skill-engine`
+Unpack target:
+`~/Documents/Projects`

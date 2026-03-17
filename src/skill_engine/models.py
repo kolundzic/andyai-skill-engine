@@ -68,15 +68,8 @@ class Skill:
         )
 
         reserved = {
-            "id",
-            "version",
-            "title",
-            "purpose",
-            "inputs",
-            "outputs",
-            "constraints",
-            "compatibility",
-            "trust",
+            "id", "version", "title", "purpose", "inputs", "outputs",
+            "constraints", "compatibility", "trust",
         }
 
         metadata = {k: v for k, v in data.items() if k not in reserved}
