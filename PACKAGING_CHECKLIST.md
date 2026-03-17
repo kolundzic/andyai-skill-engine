@@ -11,6 +11,10 @@
 - [x] repo-positioning doc included
 - [x] release notes included
 - [x] zip pack plan included
+- [x] src/ operational skeleton included
+- [x] tests/ included
+- [x] docs/validation-flow.md included
+- [x] examples/skills/minimal_skill.json included
 
 ## Final Check
 

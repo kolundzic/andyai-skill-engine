@@ -40,6 +40,8 @@ andyai-skill-engine/
 │   └── skill.schema.json
 ├── examples/
 │   ├── ui_skill_example.json
+│   ├── skills/
+│   │   └── minimal_skill.json
 │   └── copilot/
 │       └── minimal-skill-pack/
 │           ├── skill.json
@@ -49,10 +51,21 @@ andyai-skill-engine/
 │   └── skill-engine-flow.md
 ├── docs/
 │   ├── copilot-mapping.md
-│   └── repo-positioning.md
-└── compat/
-    └── copilot/
-        └── README.md
+│   ├── repo-positioning.md
+│   └── validation-flow.md
+├── compat/
+│   └── copilot/
+│       └── README.md
+├── src/
+│   └── skill_engine/
+│       ├── __init__.py
+│       ├── models.py
+│       ├── validator.py
+│       └── exporters/
+│           ├── __init__.py
+│           └── copilot.py
+└── tests/
+    └── test_skill_schema.py
 ```
 
 ## Why This Repo Matters
@@ -68,13 +81,26 @@ That is where reusable business value gets stabilized.
 
 ## Current Release
 
-This snapshot represents **v0.3 repo packaging discipline**, with:
+This snapshot represents **v0.4 operational skeleton**, with:
 - core repo definition
 - skill model write-up
 - compatibility path to Copilot
 - example minimal skill pack
 - packaging and release notes
+- minimal Python package skeleton
+- structural validation flow
+- first test coverage
 
 ## Canonical Line
 
 **Copilot compatibility is an export path. AndyAI Skill Engine remains the master architecture.**
+
+## v0.4 Operational Skeleton
+
+This repo now includes a minimal Python package skeleton for:
+- internal skill models
+- structural validation
+- compatibility export foundations
+- example test coverage
+
+This is the first step from architecture repo toward operational engine.

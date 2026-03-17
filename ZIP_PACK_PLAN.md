@@ -8,7 +8,7 @@ Prepare clean ZIP deliverables for REPO 1 only.
 
 ### 1. Repo Snapshot
 File name:
-`andyai-skill-engine-v0.3-repo-snapshot.zip`
+`andyai-skill-engine-v0.4-operational-skeleton.zip`
 
 Purpose:
 - full repo tree
@@ -17,7 +17,7 @@ Purpose:
 
 ### 2. Release Pack
 File name:
-`andyai-skill-engine-v0.3-release-pack.zip`
+`andyai-skill-engine-v0.4-release-pack.zip`
 
 Purpose:
 - mirrored package for distribution / fallback download

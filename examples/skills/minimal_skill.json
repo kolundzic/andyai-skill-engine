@@ -1,0 +1,47 @@
+{
+  "id": "andyai.minimal.status",
+  "version": "0.4.0",
+  "title": "Minimal Status Skill",
+  "purpose": "Turn simple execution state into a concise structured summary.",
+  "inputs": [
+    {
+      "name": "state",
+      "type": "string",
+      "required": true,
+      "description": "Execution state label."
+    },
+    {
+      "name": "details",
+      "type": "object",
+      "required": false,
+      "description": "Optional detail object."
+    }
+  ],
+  "outputs": [
+    {
+      "name": "summary",
+      "type": "string",
+      "description": "Human-readable status summary."
+    },
+    {
+      "name": "severity",
+      "type": "string",
+      "description": "Severity hint for UI or orchestration."
+    }
+  ],
+  "constraints": [
+    "must be concise",
+    "must not invent execution facts"
+  ],
+  "compatibility": [
+    "copilot-export",
+    "internal-ui"
+  ],
+  "trust": {
+    "evidence_required": false,
+    "safe_for_preview": true,
+    "notes": [
+      "v0.4 operational skeleton example"
+    ]
+  }
+}
