@@ -1,6 +1,3 @@
 # Contributing
 
-Run:
-- make validate
-- make check-pack
-- make test
+Run validate, check-pack, test, and cli-smoke before pushing.

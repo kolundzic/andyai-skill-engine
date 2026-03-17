@@ -7,15 +7,32 @@
     {
       "name": "state",
       "type": "string"
+    },
+    {
+      "name": "details",
+      "type": "object"
     }
   ],
   "outputs": [
     {
       "name": "summary",
       "type": "string"
+    },
+    {
+      "name": "severity",
+      "type": "string"
     }
   ],
+  "constraints": [
+    "must be concise",
+    "must not invent execution facts"
+  ],
+  "compatibility": [
+    "copilot-export",
+    "internal-ui"
+  ],
   "trust": {
-    "evidence_required": false
+    "evidence_required": false,
+    "safe_for_preview": true
   }
 }

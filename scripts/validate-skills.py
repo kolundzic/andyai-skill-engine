@@ -3,7 +3,10 @@ import json, sys
 from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent / 'src'))
 from skill_engine.validator import validate_skill_dict
+
+failed = False
 for f in sorted(Path('examples/skills').glob('*.json')):
-    r=validate_skill_dict(json.loads(f.read_text(encoding='utf-8')))
+    r = validate_skill_dict(json.loads(f.read_text(encoding='utf-8')))
     print('[OK]' if r.valid else '[FAIL]', f)
-raise SystemExit(0)
+    failed = failed or (not r.valid)
+raise SystemExit(1 if failed else 0)

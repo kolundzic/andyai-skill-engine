@@ -9,5 +9,9 @@ check-pack:
 test:
 	PYTHONPATH=src pytest -q
 
+cli-smoke:
+	PYTHONPATH=src $(PYTHON) -m skill_engine.cli --help
+	PYTHONPATH=src $(PYTHON) -m skill_engine.cli check-pack .
+
 cli-help:
 	PYTHONPATH=src $(PYTHON) -m skill_engine.cli --help
