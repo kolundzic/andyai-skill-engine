@@ -7,26 +7,22 @@
     {
       "name": "state",
       "type": "string",
-      "required": true,
-      "description": "Execution state label."
+      "required": true
     },
     {
       "name": "details",
       "type": "object",
-      "required": false,
-      "description": "Optional detail object."
+      "required": false
     }
   ],
   "outputs": [
     {
       "name": "summary",
-      "type": "string",
-      "description": "Human-readable status summary."
+      "type": "string"
     },
     {
       "name": "severity",
-      "type": "string",
-      "description": "Severity hint for UI or orchestration."
+      "type": "string"
     }
   ],
   "constraints": [
@@ -39,9 +35,6 @@
   ],
   "trust": {
     "evidence_required": false,
-    "safe_for_preview": true,
-    "notes": [
-      "v0.4 operational skeleton example"
-    ]
+    "safe_for_preview": true
   }
 }

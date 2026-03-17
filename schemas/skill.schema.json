@@ -9,47 +9,5 @@
     "purpose",
     "inputs",
     "outputs"
-  ],
-  "properties": {
-    "id": {
-      "type": "string"
-    },
-    "version": {
-      "type": "string"
-    },
-    "title": {
-      "type": "string"
-    },
-    "purpose": {
-      "type": "string"
-    },
-    "inputs": {
-      "type": "array",
-      "items": {
-        "type": "object"
-      }
-    },
-    "outputs": {
-      "type": "array",
-      "items": {
-        "type": "object"
-      }
-    },
-    "constraints": {
-      "type": "array",
-      "items": {
-        "type": "string"
-      }
-    },
-    "compatibility": {
-      "type": "array",
-      "items": {
-        "type": "string"
-      }
-    },
-    "trust": {
-      "type": "object"
-    }
-  },
-  "additionalProperties": true
+  ]
 }

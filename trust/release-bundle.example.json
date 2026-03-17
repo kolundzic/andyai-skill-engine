@@ -1,21 +1,20 @@
 {
-  "release_version": "0.5.0",
+  "release_version": "0.6.0",
   "repo_root": "andyai-skill-engine",
   "included_skills": [
     "andyai.minimal.status"
   ],
   "required_docs": [
     "README.md",
-    "RELEASE_NOTES_v0.5.md",
+    "RELEASE_NOTES_v0.6.md",
     "docs/trust-model.md",
-    "docs/release-discipline.md"
+    "docs/release-discipline.md",
+    "docs/cli-usage.md",
+    "docs/dev-setup.md"
   ],
   "required_scripts": [
     "scripts/check-pack.sh",
     "scripts/validate-skills.py"
   ],
-  "status": "example",
-  "notes": [
-    "example release bundle structure for trust-aware packaging"
-  ]
+  "status": "example"
 }

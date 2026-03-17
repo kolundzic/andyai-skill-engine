@@ -10,8 +10,5 @@
     "schema_shape_checked": true,
     "validator_checked": true,
     "pack_root_checked": true
-  },
-  "notes": [
-    "example trust manifest for v0.5 discipline"
-  ]
+  }
 }

@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "andyai-skill-engine"
+version = "0.6.0"
+description = "Skill-based orchestration architecture for reusable, verifiable AI execution."
+readme = "README.md"
+requires-python = ">=3.10"
+
+[project.scripts]
+skill-engine = "skill_engine.cli:main"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
